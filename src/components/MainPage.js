@@ -145,7 +145,7 @@ const handleClickHamburger = () => {
         {openMercury ? (
             <>  
                 <Menu menu={menu} handleClickHamburger={handleClickHamburger} />
-                <SecondMenu color={"4px solid #419EBB"}/>
+                <SecondMenu/>
                 <Mercury open={openMercury} handleClick={handleClickMercury}/>
             </>
         ) : openVenus ? (

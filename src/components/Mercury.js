@@ -1,10 +1,12 @@
 import React, {useState} from 'react'
 import mercuryImg from './assets/planet-mercury.svg'
+import SecondMenu from './SecondMenu'
 
 export default function Mercury ({open, handleClick}) {
   return (
     <>
      {open ? (
+      <>
         
         <div className='MercuryMainPage'>
           <div className='planetMercury'>
@@ -12,7 +14,7 @@ export default function Mercury ({open, handleClick}) {
           </div>
           <div className='planetInfo'>
             <h1 className='planetName'>MERCURY</h1>
-            <p className='planetText'>Mercury is the smallest planet in the Solar System and"<br/> the closest to the Sun. Its orbit around the Sun takes <br/> 87.97 Earth days, the shortest of all the Sun's planets. <br/> Mercury is one of four terrestrial planets in the Solar <br/> System, and is a rocky body like Earth.</p>
+            <p className='planetText'>Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.</p>
             <p className='planetWiki'>Source : <a href="https://www.example.com">Wikipedia</a> </p>
             <div className='planetInfoBox'>
                 <div className='boxInfo'>
@@ -35,6 +37,7 @@ export default function Mercury ({open, handleClick}) {
             </div>
           </div>
         </div>
+      </>
      ) :
         
         <div onClick={handleClick} className="box">
