@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/planets-fact-site/static/css/main.f1f28382.css",
+    "main.js": "/planets-fact-site/static/js/main.ba94f97e.js",
+    "static/js/787.6e51ec5c.chunk.js": "/planets-fact-site/static/js/787.6e51ec5c.chunk.js",
+    "static/media/background-stars.svg": "/planets-fact-site/static/media/background-stars.f6233a6a8d2351c57f2b64289718b309.svg",
+    "static/media/planet-mercury.svg": "/planets-fact-site/static/media/planet-mercury.1fce205c50f4657418d4562ca24b008a.svg",
+    "index.html": "/planets-fact-site/index.html",
+    "static/media/icon-hamburger.svg": "/planets-fact-site/static/media/icon-hamburger.05a40a49142005f6faf230286ab38214.svg",
+    "main.f1f28382.css.map": "/planets-fact-site/static/css/main.f1f28382.css.map",
+    "main.ba94f97e.js.map": "/planets-fact-site/static/js/main.ba94f97e.js.map",
+    "787.6e51ec5c.chunk.js.map": "/planets-fact-site/static/js/787.6e51ec5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1f28382.css",
+    "static/js/main.ba94f97e.js"
+  ]
+}
