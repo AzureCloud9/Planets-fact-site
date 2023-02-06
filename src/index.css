@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #070724;
+  color: #ffffff;
+}
+
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .menu {
+    display: flex;
+    padding-bottom: 17px;
+    margin-bottom: 24px;
+    align-items: center;
+    border-bottom: 1px solid rgba(242, 242, 242, 0.5);
+  }
+
+  .menu h1 {
+    font-family: Antonio;
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 24px;
+    margin-top: 16px;
+  }
+
+  .menu img {
+    width: 24px;
+    height: 17px;
+    margin-left: 194px;
+    margin-top: 16px;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+
+  .mainPage {
+  }
+
+  .box {
+    display: flex;
+    border-bottom: 1px solid rgba(242, 242, 242, 0.5);
+    
+  }
+
+  .box h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 1.3636363744735718px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    
+  }
+
+  .littleCircle {
+    width: 20px;
+    height: 20px;
+    background-color: #DEF4FC;
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .secondMenu {
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid rgba(242, 242, 242, 0.5);
+  }
+
+  .secondMenu h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1.9285714626312256px; 
+    
+  }
+
+
+  .box2Main {
+    margin-left: -20px;
+    border-bottom: 3px solid red;
+  }
+
+  .box2 {
+    margin-left: 43px;
+
+  }
+
+  .box2 h1 {
+    border-bottom: 3px so lid #419EBB;
+
+
+  }
+
+  .planetMercury {
+    display: flex;
+    justify-content: center;
+  }
+
+  .planetMercury img {
+    margin-top: 95px;
+    width: 111px;
+    height: 111px;
+    margin-bottom: 98px;
+  }
+
+  .planetInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .planetName {
+    margin-bottom: 16px;
+    font-family: Antonio;
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  .planetText {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 0.7;
+    margin-bottom: 32px;
+  }
+
+  .planetWiki {
+    margin-bottom: 28px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    opacity: 0.5;
+  }
+  
+  .planetInfoBox {
+    
+
+  }
+
+  .boxInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 327px;
+    height: 48px;
+    border: 1px solid rgba(242, 242, 242, 0.5);
+    margin-bottom: 8px;
+
+  }
+
+  .question {
+    margin-left: 24px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.7272727489471436px;
+    text-align: left;
+
+  }
+
+  .answer {
+    font-family: Antonio;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.75px;
+    text-align: right;
+    color: white;
+    margin-right: 24px;
+    
+  }
+
+
+
+
+
+    
+
+  
+  
+}
