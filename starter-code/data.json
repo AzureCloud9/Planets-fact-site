@@ -88,7 +88,7 @@
     "rotation": "1.03 Days",
     "revolution": "1.88 Years",
     "radius": "3,389.5 KM",
-    "temperature": "-28°c",
+    "temperature": "-28°C",
     "images": {
       "planet": "./assets/planet-mars.svg",
       "internal": "./assets/planet-mars-internal.svg",
