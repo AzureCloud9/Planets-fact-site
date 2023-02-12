@@ -4,14 +4,11 @@ import Planets from './components/Planets';
 import bgImage from "./components/assets/background-stars.svg"
 function App() {
   const [mainPage, setMainpage] = useState(false)
+  
+
   function handleClick () {
     setMainpage(!mainPage)
-    if(mainPage){
-      console.log('true')
-    } else (
-      console.log('false')
-    )
-    
+   
 }
 
  

@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import PlanetOverview from "./PlanetOverview"
 import imgMercury from "./assets/planet-mercury.svg"
 import imgMercury2 from "./assets/planet-mercury-internal.svg"
+import ImgMercury3 from "./assets/geology-mercury.png"
 import imgVenus from "./assets/planet-venus.svg"
 import imgVenus2 from "./assets/planet-venus-internal.svg"
 import imgEarth from "./assets/planet-earth.svg"
@@ -12,7 +13,7 @@ export default function PlanetInfo ({mercury, venus, earth}) {
     const [structure, setStructure] = useState(false)
     const [surface, setSurface] = useState(false)
     const country = [
-        {name: 'MERCURY', overview: "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.", structure:"Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density.", },
+        {name: 'MERCURY', overview: "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.", structure:"Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density.",surface: "The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.", },
         {name: 'VENUS', overview: "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.", structure: "The similarity in size and density between Venus and Earth suggests they share a similar internal structure: a core, mantle, and crust. Like that of Earth, Venusian core is most likely at least partially liquid because the two planets have been cooling at about the same rate.",},
         {name: 'Earth', overview:"Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.", structure:"Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle." ,}
     ]
@@ -41,8 +42,8 @@ export default function PlanetInfo ({mercury, venus, earth}) {
             {overview && mercury ? (
             <>
                <div className="subMenu">
-                    <div style={{borderBottom:"3px solid #419EBB"}} className="overview">OVERVIEW</div>
-                    <div onClick={structureHandle} className="structure">STRUCTURE</div>
+                    <div style={{borderBottom:"3px solid #419EBB"}} className="overview"><p>OVERVIEW</p></div>
+                    <div onClick={structureHandle} className="structure"><p>STRUCTURE</p></div>
                     <div onClick={surfaceHandle} className="surface">SURFACE</div>
                </div>
                <PlanetOverview overViewDetails={country[0].overview} img={imgMercury} name={country[0].name} size={"111px"} menuToPlanet={'95px'} planetToInfo={"98px"} roTime={"58.6 DAYS"} reTime={"87.97 DAYS"} radius={"2,439.7 KM"} avgTemp={"430°C"} link="https://en.wikipedia.org/wiki/Mercury_(planet)" />
@@ -58,11 +59,15 @@ export default function PlanetInfo ({mercury, venus, earth}) {
             </>
                
             ): surface && mercury ? (
+            <>
                 <div className="subMenu">
                     <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
                     <div onClick={structureHandle} style={{borderBottom:"none"}}   className="structure">STRUCTURE</div>
                     <div style={{borderBottom:"3px solid #419EBB"}} className="surface">SURFACE</div>
                </div>
+               <PlanetOverview surface={surface} overViewDetails={country[0].surface} img={imgMercury} img2={ImgMercury3} name={country[0].name} size={"111px"} menuToPlanet={'95px'} planetToInfo={"98px"} roTime={"58.6 DAYS"} reTime={"87.97 DAYS"} radius={"2,439.7 KM"} avgTemp={"430°C"} link="https://en.wikipedia.org/wiki/Mercury_(planet)" />
+
+            </>
             ) : overview && venus ? (
             <>
                 <div className="subMenu">
@@ -84,11 +89,13 @@ export default function PlanetInfo ({mercury, venus, earth}) {
 
             </>
              ): surface && venus ? (
+            <>
                  <div className="subMenu">
                      <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
                      <div onClick={structureHandle} style={{borderBottom:"none"}}   className="structure">STRUCTURE</div>
                      <div style={{borderBottom:"3px solid #EDA249"}} className="surface">SURFACE</div>
                 </div>
+            </>
              ) : overview && earth ? (
             <>
                 <div className="subMenu">

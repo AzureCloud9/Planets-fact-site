@@ -1,7 +1,8 @@
-export default function PlanetOverview ({overViewDetails, img, size, name, menuToPlanet, planetToInfo, link, roTime, reTime, radius, avgTemp}) {
+export default function PlanetOverview ({surface, overViewDetails, img, size, name, menuToPlanet, planetToInfo, link, roTime, reTime, radius, avgTemp, img2}) {
     return (
         <div className="planetOverview">
             <img src={img} alt="planet" style={{width:size, height:size,marginTop:menuToPlanet, marginBottom:planetToInfo}}/>
+            {surface ? (<img src={img2} alt="geography" style={{width:"100px", height:"100px", position: "absolute", top:"310px"}}/>): null}
             <h1 className="planetName">{name}</h1>
             <p className="planetInfo">{overViewDetails}</p>
             <p className="source">source: <a href={link}>Wikipedia</a></p>

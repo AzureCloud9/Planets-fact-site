@@ -14,17 +14,20 @@ const [uranus, setUranus] = useState(false)
 const [neptune, setNeptune] = useState(false)
 
 
+function handleClick() {
+    setMainpage(!mainPage)
+
+}
 
 function mercuryHandle() {
-    setMercury(!mercury)
-    setVenus(false)
-    setEarth(false)
-    setMars(false)
-    setJupiter(false)
-    setSaturn(false)
-    setUranus(false)
-    setNeptune(false)
-    setMainpage(true)
+setMercury(!mercury)
+setVenus(false)
+setEarth(false)
+setMars(false)
+setJupiter(false)
+setSaturn(false)
+setUranus(false)
+setNeptune(false)
     handleClick()
 }
 
@@ -37,7 +40,6 @@ function venusHandle() {
     setSaturn(false)
     setUranus(false)
     setNeptune(false)
-    setMainpage(!mainPage)
     handleClick()
 
 
@@ -51,7 +53,6 @@ function earthHandle() {
     setSaturn(false)
     setUranus(false)
     setNeptune(false)
-    setMainpage(!mainPage)
     handleClick()
 
 
@@ -66,7 +67,6 @@ function marsHandle() {
     setSaturn(false)
     setUranus(false)
     setNeptune(false)
-    setMainpage(!mainPage)
     handleClick()
 }
 function jupiterHandle() {
@@ -78,7 +78,6 @@ function jupiterHandle() {
     setSaturn(false)
     setUranus(false)
     setNeptune(false)
-    setMainpage(!mainPage)
     handleClick()
 }
 function saturnHandle() {
@@ -90,7 +89,6 @@ function saturnHandle() {
     setSaturn(!saturn)
     setUranus(false)
     setNeptune(false)
-    setMainpage(!mainPage)
     handleClick()
 }
 function uranusHandle() {
@@ -102,7 +100,6 @@ function uranusHandle() {
     setSaturn(false)
     setUranus(!uranus)
     setNeptune(false)
-    setMainpage(!mainPage)
     handleClick()
 }
 function neptuneHandle() {
@@ -114,7 +111,6 @@ function neptuneHandle() {
     setSaturn(false)
     setUranus(false)
     setNeptune(!neptune)
-    setMainpage(!mainPage)
     handleClick()
 }
     
