@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Planets from './components/Planets';
-
+import bgImage from "./components/assets/background-stars.svg"
 function App() {
   const [mainPage, setMainpage] = useState(false)
   function handleClick () {

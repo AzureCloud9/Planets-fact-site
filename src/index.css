@@ -8,6 +8,10 @@
 body {
   background-color: #070724;
   color: #ffffff;
+  background-image: url('./components/assets/background-stars.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
