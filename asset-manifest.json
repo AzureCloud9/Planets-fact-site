@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/planets-fact-site/static/css/main.92e28d7b.css",
-    "main.js": "/planets-fact-site/static/js/main.bc506f77.js",
+    "main.css": "/planets-fact-site/static/css/main.1a02c739.css",
+    "main.js": "/planets-fact-site/static/js/main.568de9e3.js",
     "static/js/787.6e51ec5c.chunk.js": "/planets-fact-site/static/js/787.6e51ec5c.chunk.js",
-    "static/media/background-stars.svg": "/planets-fact-site/static/media/background-stars.f6233a6a8d2351c57f2b64289718b309.svg",
+    "static/media/planet-earth-internal.svg": "/planets-fact-site/static/media/planet-earth-internal.3c465186cd11e28615059f051f8ab2c6.svg",
+    "static/media/planet-earth.svg": "/planets-fact-site/static/media/planet-earth.4d12af96d901006c0b9499208a32daf6.svg",
+    "static/media/planet-venus-internal.svg": "/planets-fact-site/static/media/planet-venus-internal.1a94aa02c54e1742e5c53e0a2ae9056b.svg",
+    "static/media/planet-venus.svg": "/planets-fact-site/static/media/planet-venus.db5a344418797845ce8f0924814a193b.svg",
+    "static/media/planet-mercury-internal.svg": "/planets-fact-site/static/media/planet-mercury-internal.d1be143201898fac437968baae616e6b.svg",
     "static/media/planet-mercury.svg": "/planets-fact-site/static/media/planet-mercury.1fce205c50f4657418d4562ca24b008a.svg",
     "index.html": "/planets-fact-site/index.html",
     "static/media/icon-hamburger.svg": "/planets-fact-site/static/media/icon-hamburger.05a40a49142005f6faf230286ab38214.svg",
-    "main.92e28d7b.css.map": "/planets-fact-site/static/css/main.92e28d7b.css.map",
-    "main.bc506f77.js.map": "/planets-fact-site/static/js/main.bc506f77.js.map",
+    "main.1a02c739.css.map": "/planets-fact-site/static/css/main.1a02c739.css.map",
+    "main.568de9e3.js.map": "/planets-fact-site/static/js/main.568de9e3.js.map",
     "787.6e51ec5c.chunk.js.map": "/planets-fact-site/static/js/787.6e51ec5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92e28d7b.css",
-    "static/js/main.bc506f77.js"
+    "static/css/main.1a02c739.css",
+    "static/js/main.568de9e3.js"
   ]
 }
