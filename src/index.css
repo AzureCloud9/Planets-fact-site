@@ -70,183 +70,143 @@ body {
   
   .menu {
     display: flex;
-    padding-bottom: 17px;
-    margin-bottom: 24px;
     align-items: center;
-    border-bottom: 1px solid rgba(242, 242, 242, 0.5);
+    justify-content: space-between;
+    margin-top: 16px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   }
 
-  .menu h1 {
+  .logoName {
     font-family: Antonio;
     font-size: 28px;
     font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -1.0499999523162842px;
     margin-left: 24px;
-    margin-top: 16px;
-  }
-
-  .menu img {
-    width: 24px;
-    height: 17px;
-    margin-left: 194px;
-    margin-top: 16px;
-    color: #FFFFFF;
-    opacity: 0.5;
-  }
-
-  .mainPage {
-  }
-
-  .box {
-    display: flex;
-    border-bottom: 1px solid rgba(242, 242, 242, 0.5);
-    
-  }
-
-  .box h1 {
-    font-family: 'League Spartan', sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 25px;
-    letter-spacing: 1.3636363744735718px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-    
-  }
-
-  .littleCircle {
-    width: 20px;
-    height: 20px;
-    background-color: #DEF4FC;
-    border-radius: 10px;
-    margin-right: 25px;
-    margin-left: 24px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .secondMenu {
-    display: flex;
-    height: 50px;
-    border-bottom: 1px solid rgba(242, 242, 242, 0.5);
-  }
-
-  .secondMenu h1 {
-    font-family: 'League Spartan', sans-serif;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 1.9285714626312256px; 
-    
-  }
-
-
-  .box2Main {
-    margin-left: -20px;
-    border-bottom: 3px solid red;
-  }
-
-  .box2 {
-    margin-left: 43px;
 
   }
 
-  .box2 h1 {
-    border-bottom: 3px so lid #419EBB;
-
-
-  }
-
-  .planetMercury {
-    display: flex;
-    justify-content: center;
-  }
-
-  .planetMercury img {
-    margin-top: 95px;
-    width: 111px;
-    height: 111px;
-    margin-bottom: 98px;
-  }
-
-  .planetInfo {
+  .hamburgerMenu {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
+    margin-right: 24px;
   }
 
-  .planetName {
-    margin-bottom: 16px;
-    font-family: Antonio;
-    font-size: 40px;
-    font-weight: 400;
-  }
-
-  .planetText {
-    font-family: 'League Spartan', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    opacity: 0.7;
-    margin-bottom: 32px;
-    width: 327px;
-  }
-
-  .planetWiki {
-    margin-bottom: 28px;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0px;
+  .hamburgerMenu img {
     opacity: 0.5;
   }
   
-  .planetInfoBox {
-    
+  .planets {
+    display: flex;
+    align-items: center;
+  }
+
+  .planetborder {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) ;
+  }
+
+  .circleColor {
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+    margin-left: 24px;
+  }
+
+  .planet {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1.3636363744735718px;
+  }
+  
+  .subMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 1.9285714626312256px;
+    text-align: center;
 
   }
 
-  .boxInfo {
+  .overview {
+    margin-left: 24px;
+    border-bottom: 3px solid #419EBB;
+  }
+
+  .surface {
+    margin-right: 24px;
+  }
+
+  .planetOverview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .planetName {
+    font-family: Antonio;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    margin-bottom: 16px;
+  }
+
+  .planetInfo {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 327px;
+    height: 110px;
+    margin-bottom: 32px;
+    color:  rgba(255, 255, 255, 0.7);
+  }
+
+  .source {
+    margin-bottom: 28px;
+  }
+
+  .boxMain {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 327px;
     height: 48px;
-    border: 1px solid rgba(242, 242, 242, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     margin-bottom: 8px;
-
   }
 
-  .question {
-    margin-left: 24px;
+  .boxInfo {
     font-family: 'League Spartan', sans-serif;
     font-size: 10px;
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.7272727489471436px;
-    text-align: left;
-
+    margin-left: 24px;
+    color:  rgba(255, 255, 255, 0.5);
   }
 
-  .answer {
+  .boxAnswer {
     font-family: Antonio;
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: -0.75px;
-    text-align: right;
-    color: white;
     margin-right: 24px;
-    
   }
-
-
-
-
-
-    
-
-  
-  
 }

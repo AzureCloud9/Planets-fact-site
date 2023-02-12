@@ -1,13 +1,24 @@
 import React, { useState } from 'react';
-import MainPage from './components/MainPage';
-import Menu from './components/Menu';
-
+import Header from './components/Header';
+import Planets from './components/Planets';
 
 function App() {
+  const [mainPage, setMainpage] = useState(false)
+  function handleClick () {
+    setMainpage(!mainPage)
+    if(mainPage){
+      console.log('true')
+    } else (
+      console.log('false')
+    )
+    
+}
+
  
   return (
     <div className="App">
-      <MainPage/>
+      <Header  handleClick={handleClick} mainPage={mainPage} setMainpage={setMainpage} />
+      <Planets handleClick={handleClick} mainPage={mainPage} setMainpage={setMainpage}/>
     </div>
   );
 }
