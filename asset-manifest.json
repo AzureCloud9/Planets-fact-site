@@ -1,24 +1,29 @@
 {
   "files": {
     "main.css": "/planets-fact-site/static/css/main.f71ffb42.css",
-    "main.js": "/planets-fact-site/static/js/main.89832918.js",
+    "main.js": "/planets-fact-site/static/js/main.566011ab.js",
     "static/js/787.6e51ec5c.chunk.js": "/planets-fact-site/static/js/787.6e51ec5c.chunk.js",
     "static/media/geology-mercury.png": "/planets-fact-site/static/media/geology-mercury.aa6732c318454e3fc480.png",
+    "static/media/geology-venus.png": "/planets-fact-site/static/media/geology-venus.484f9dacbeb3b555ffba.png",
+    "static/media/geology-mars.png": "/planets-fact-site/static/media/geology-mars.d3ffce8e1e9b9bc5df60.png",
+    "static/media/geology-earth.png": "/planets-fact-site/static/media/geology-earth.61d2b324eebae64f67cf.png",
     "static/media/planet-earth-internal.svg": "/planets-fact-site/static/media/planet-earth-internal.3c465186cd11e28615059f051f8ab2c6.svg",
     "static/media/background-stars.svg": "/planets-fact-site/static/media/background-stars.f6233a6a8d2351c57f2b64289718b309.svg",
     "static/media/planet-earth.svg": "/planets-fact-site/static/media/planet-earth.4d12af96d901006c0b9499208a32daf6.svg",
     "static/media/planet-venus-internal.svg": "/planets-fact-site/static/media/planet-venus-internal.1a94aa02c54e1742e5c53e0a2ae9056b.svg",
     "static/media/planet-venus.svg": "/planets-fact-site/static/media/planet-venus.db5a344418797845ce8f0924814a193b.svg",
+    "static/media/planet-mars-internal.svg": "/planets-fact-site/static/media/planet-mars-internal.d867ac804b24a57bcc34c60ca5c634c8.svg",
+    "static/media/planet-mars.svg": "/planets-fact-site/static/media/planet-mars.f9dc1ca45a888b568829cd38ca525dcb.svg",
     "static/media/planet-mercury-internal.svg": "/planets-fact-site/static/media/planet-mercury-internal.d1be143201898fac437968baae616e6b.svg",
     "static/media/planet-mercury.svg": "/planets-fact-site/static/media/planet-mercury.1fce205c50f4657418d4562ca24b008a.svg",
     "index.html": "/planets-fact-site/index.html",
     "static/media/icon-hamburger.svg": "/planets-fact-site/static/media/icon-hamburger.05a40a49142005f6faf230286ab38214.svg",
     "main.f71ffb42.css.map": "/planets-fact-site/static/css/main.f71ffb42.css.map",
-    "main.89832918.js.map": "/planets-fact-site/static/js/main.89832918.js.map",
+    "main.566011ab.js.map": "/planets-fact-site/static/js/main.566011ab.js.map",
     "787.6e51ec5c.chunk.js.map": "/planets-fact-site/static/js/787.6e51ec5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f71ffb42.css",
-    "static/js/main.89832918.js"
+    "static/js/main.566011ab.js"
   ]
 }
