@@ -38,7 +38,9 @@ export default function PlanetInfo ({mercury, venus, earth, mars, jupiter, satur
         {name: 'EARTH', overview:"Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.", structure:"Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle." ,},
         {name: "MARS", overview: "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the \"Red Planet\".", structure: "Like Earth, Mars has differentiated into a dense metallic core overlaid by less dense materials. Scientists initially determined that the core is at least partially liquid. Current models of its interior imply a core consisting primarily of iron and nickel with about 16–17% sulfur.", surface: "Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt."},
         {name: 'JUPITER', overview: "Jupiter is the largest planet in our Solar System and the fifth planet from the Sun. It is a giant gas planet with a mass that is more than 300 times that of Earth and is the first of the gas giants in the Solar System.", structure: "Jupiter has no solid surface and its atmosphere extends down to the center of the planet. The atmosphere is composed primarily of hydrogen and helium and its internal structure is believed to be composed of a central dense core, a hydrogen-helium rich layer and a metallic hydrogen layer.", surface: "Jupiter has no solid surface as it is a giant gas planet. The cloud tops are the visible surface and they are constantly changing due to the planet's strong winds and storms."},
-        {name: "SATURN", overview: "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth.", structure: "Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01 g/cm3, which is reached at a radius containing 99.9% of Saturn's mass.", surface: "The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles with a smaller amount of rocky debris and dust."}
+        {name: "SATURN", overview: "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth.", structure: "Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01 g/cm3, which is reached at a radius containing 99.9% of Saturn's mass.", surface: "The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles with a smaller amount of rocky debris and dust."},
+        {name: "URANUS", overview: "Uranus is the seventh planet from the Sun and the third largest planet in the Solar System. It has the coldest planetary atmosphere in the Solar System, with a minimum temperature of -224°C. Uranus is an ice giant, similar to Neptune.", structure: "Uranus has a rocky core surrounded by an icy mantle, which itself is surrounded by a thick atmosphere of hydrogen and helium. The planet's atmosphere contains trace amounts of methane, which gives it its blue-green color.", surface: "Uranus has no solid surface, and its atmosphere gradually transitions into its interior. The upper atmosphere is covered by a thick layer of clouds, consisting mainly of methane. Below this layer, the hydrogen and helium gradually become denser and turn into liquid."},
+        {name: "NEPTUNE", overview: "Neptune is the eighth planet from the Sun and the fourth largest planet in the Solar System. It is an ice giant, similar to Uranus. Neptune has the strongest winds in the Solar System, with wind speeds reaching up to 2,100 kilometers per hour.", structure: "Neptune has a rocky core surrounded by an icy mantle, which is in turn surrounded by a thick atmosphere of hydrogen, helium, and methane. The planet's atmosphere gives it its blue color, due to the absorption of red light by methane in the atmosphere.", surface: "Like Uranus, Neptune has no solid surface. Its atmosphere gradually transitions into its interior, with the upper atmosphere covered by a layer of clouds consisting mainly of methane. Below this layer, the hydrogen and helium gradually become denser and turn into liquid."},
     ]
 
     function overviewhandle() {
@@ -153,7 +155,7 @@ export default function PlanetInfo ({mercury, venus, earth, mars, jupiter, satur
              ) : overview && mars ? (
                 <>
                     <div className="subMenu">
-                         <div style={{borderBottom:"3px solid #D14C32"}} className="overview">OVERVIEW</div>
+                         <div style={{borderBottom:"3px solid #CD5120"}} className="overview">OVERVIEW</div>
                          <div onClick={structureHandle} className="structure">STRUCTURE</div>
                          <div onClick={surfaceHandle} className="surface">SURFACE</div>
                     </div>
@@ -164,7 +166,7 @@ export default function PlanetInfo ({mercury, venus, earth, mars, jupiter, satur
                 <>
                      <div className="subMenu">
                          <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
-                         <div style={{borderBottom:"3px solid #D14C32"}}  className="structure">STRUCTURE</div>
+                         <div style={{borderBottom:"3px solid #CD5120"}}  className="structure">STRUCTURE</div>
                          <div onClick={surfaceHandle} style={{borderBottom:"none"}} className="surface">SURFACE</div>
                     </div>
                     <PlanetOverview overViewDetails={country[3].structure} img={imgMars2} name={country[3].name} size={"129px"} menuToPlanet={'87px'} planetToInfo={"88px"} roTime={"1.03 DAYS"} reTime={"1.88 Years"} radius={"3,389.5 KM"} avgTemp={"-28°C"} link="https://en.wikipedia.org/wiki/Mars#Internal_structure" />
@@ -175,7 +177,7 @@ export default function PlanetInfo ({mercury, venus, earth, mars, jupiter, satur
                      <div className="subMenu">
                          <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
                          <div onClick={structureHandle} style={{borderBottom:"none"}}   className="structure">STRUCTURE</div>
-                         <div style={{borderBottom:"3px solid #D14C32"}} className="surface">SURFACE</div>
+                         <div style={{borderBottom:"3px solid #CD5120"}} className="surface">SURFACE</div>
                     </div>
                     <PlanetOverview surface={surface} overViewDetails={country[3].structure} img={imgMars} img2={imgMars3} name={country[3].name} size={"129px"} menuToPlanet={'87px'} planetToInfo={"88px"} roTime={"1.03 DAYS"} reTime={"1.88 Years"} radius={"3,389.5 KM"} avgTemp={"-28°C"} link="https://en.wikipedia.org/wiki/Mars#Surface_geology" />
     
@@ -183,7 +185,7 @@ export default function PlanetInfo ({mercury, venus, earth, mars, jupiter, satur
                  ) : overview && jupiter ? (
                 <>
                     <div className="subMenu">
-                            <div style={{borderBottom:"3px solid #F7B848"}} className="overview">OVERVIEW</div>
+                            <div style={{borderBottom:"3px solid #CD5120"}} className="overview">OVERVIEW</div>
                             <div onClick={structureHandle} className="structure">STRUCTURE</div>
                             <div onClick={surfaceHandle} className="surface">SURFACE</div>
                     </div>
@@ -194,7 +196,7 @@ export default function PlanetInfo ({mercury, venus, earth, mars, jupiter, satur
                 <>
                         <div className="subMenu">
                             <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
-                            <div style={{borderBottom:"3px solid #F7B848"}}  className="structure">STRUCTURE</div>
+                            <div style={{borderBottom:"3px solid #CD5120"}}  className="structure">STRUCTURE</div>
                             <div onClick={surfaceHandle} style={{borderBottom:"none"}} className="surface">SURFACE</div>
                     </div>
                     <PlanetOverview overViewDetails={country[4].structure} img={imgJupiter2} name={country[4].name} size={"224px"} menuToPlanet={'39px'} planetToInfo={"41px"} roTime={"9.92 HOURS"} reTime={"11.86 YEARS"} radius={"71,492 KM"} avgTemp={"-145°C"} link="https://en.wikipedia.org/wiki/Jupiter" />
@@ -205,7 +207,7 @@ export default function PlanetInfo ({mercury, venus, earth, mars, jupiter, satur
                         <div className="subMenu">
                             <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
                             <div onClick={structureHandle} style={{borderBottom:"none"}}   className="structure">STRUCTURE</div>
-                            <div style={{borderBottom:"3px solid #F7B848"}} className="surface">SURFACE</div>
+                            <div style={{borderBottom:"3px solid #CD5120"}} className="surface">SURFACE</div>
                     </div>
                     <PlanetOverview surface={surface} overViewDetails={country[4].surface} img={imgJupiter} img2={imgJupiter3} name={country[4].name} size={"224px"} menuToPlanet={'39px'} planetToInfo={"41px"} roTime={"9.92 HOURS"} reTime={"11.86 YEARS"} radius={"71,492 KM"} avgTemp={"-145°C"} link="https://en.wikipedia.org/wiki/Jupiter" />
     
@@ -213,7 +215,7 @@ export default function PlanetInfo ({mercury, venus, earth, mars, jupiter, satur
                 ) : overview && saturn ? (
                     <>
                         <div className="subMenu">
-                                <div style={{borderBottom:"3px solid #F7B848"}} className="overview">OVERVIEW</div>
+                                <div style={{borderBottom:"3px solid #CD5120"}} className="overview">OVERVIEW</div>
                                 <div onClick={structureHandle} className="structure">STRUCTURE</div>
                                 <div onClick={surfaceHandle} className="surface">SURFACE</div>
                         </div>
@@ -224,7 +226,7 @@ export default function PlanetInfo ({mercury, venus, earth, mars, jupiter, satur
                     <>
                             <div className="subMenu">
                                 <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
-                                <div style={{borderBottom:"3px solid #F7B848"}}  className="structure">STRUCTURE</div>
+                                <div style={{borderBottom:"3px solid #CD5120"}}  className="structure">STRUCTURE</div>
                                 <div onClick={surfaceHandle} style={{borderBottom:"none"}} className="surface">SURFACE</div>
                         </div>
                         <PlanetOverview overViewDetails={country[5].structure} img={imgSaturn2} name={country[5].name} size={"224px"} menuToPlanet={'24px'} planetToInfo={"24px"} roTime={"10.7 HOURS"} reTime={"29.46 YEARS"} radius={"60,268 KM"} avgTemp={"-140°C"} link="https://en.wikipedia.org/wiki/Saturn" />
@@ -235,11 +237,67 @@ export default function PlanetInfo ({mercury, venus, earth, mars, jupiter, satur
                             <div className="subMenu">
                                 <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
                                 <div onClick={structureHandle} style={{borderBottom:"none"}}   className="structure">STRUCTURE</div>
-                                <div style={{borderBottom:"3px solid #F7B848"}} className="surface">SURFACE</div>
+                                <div style={{borderBottom:"3px solid #CD5120"}} className="surface">SURFACE</div>
                         </div>
                         <PlanetOverview surface={surface} overViewDetails={country[5].surface} img={imgSaturn} img2={imgSaturn3} name={country[5].name} size={"224px"} menuToPlanet={'24px'} planetToInfo={"24px"} roTime={"10.7 HOURS"} reTime={"29.46 YEARS"} radius={"60,268 KM"} avgTemp={"-140°C"} link="https://en.wikipedia.org/wiki/Saturn" />
                     </>
-                    ): null
+                    ): overview && uranus ? (
+                        <>
+                            <div className="subMenu">
+                                <div style={{borderBottom:"3px solid #1EC1A2"}} className="overview">OVERVIEW</div>
+                                <div onClick={structureHandle} className="structure">STRUCTURE</div>
+                                <div onClick={surfaceHandle} className="surface">SURFACE</div>
+                            </div>
+                        <PlanetOverview overViewDetails={country[6].overview} img={imgUranus} name={country[6].name} size={"176px"} menuToPlanet={'73px'} planetToInfo={"65px"} roTime={"17.2 HOURS"} reTime={"84 YEARS"} radius={"25,362 KM"} avgTemp={"-195°C"} link="https://en.wikipedia.org/wiki/Saturn" />
+                     
+                        </>
+                    ): structure && uranus ? (
+                        <>
+                            <div className="subMenu">
+                                <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
+                                <div style={{borderBottom:"3px solid #1EC1A2"}}  className="structure">STRUCTURE</div>
+                                <div onClick={surfaceHandle} style={{borderBottom:"none"}} className="surface">SURFACE</div>
+                            </div>
+                            <PlanetOverview overViewDetails={country[6].structure} img={imgUranus2} name={country[6].name} size={"176px"} menuToPlanet={'73px'} planetToInfo={"65px"} roTime={"17.2 HOURS"} reTime={"84 YEARS"} radius={"25,362 KM"} avgTemp={"-195°C"} link="https://en.wikipedia.org/wiki/Saturn" />
+                        </>
+                    ): surface && uranus ? (
+                        <>
+                            <div className="subMenu">
+                                <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
+                                <div onClick={structureHandle} style={{borderBottom:"none"}}   className="structure">STRUCTURE</div>
+                                <div style={{borderBottom:"3px solid #1EC1A2"}} className="surface">SURFACE</div>
+                            </div>
+                            <PlanetOverview surface={surface} overViewDetails={country[6].surface} img={imgUranus} img2={imgUranus3} name={country[6].name} size={"176px"} menuToPlanet={'73px'} planetToInfo={"65px"} roTime={"17.2 HOURS"} reTime={"84 YEARS"} radius={"25,362 KM"} avgTemp={"-195°C"} link="https://en.wikipedia.org/wiki/Saturn" />
+                        </>
+                    ): overview && neptune ? (
+                        <>
+                            <div className="subMenu">
+                                <div style={{borderBottom:"3px solid #2D68F0"}} className="overview">OVERVIEW</div>
+                                <div onClick={structureHandle} className="structure">STRUCTURE</div>
+                                <div onClick={surfaceHandle} className="surface">SURFACE</div>
+                            </div>
+                        <PlanetOverview overViewDetails={country[7].overview} img={imgNeptune} name={country[7].name} size={"173px"} menuToPlanet={'64px'} planetToInfo={"67px"} roTime={"16.02 HOURS"} reTime={"164.79 YEARS"} radius={"24,662 KM"} avgTemp={"-201°C"} link="https://en.wikipedia.org/wiki/Saturn" />
+                     
+                        </>
+                    ): structure && neptune ? (
+                        <>
+                            <div className="subMenu">
+                                <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
+                                <div style={{borderBottom:"3px solid #2D68F0"}}  className="structure">STRUCTURE</div>
+                                <div onClick={surfaceHandle} style={{borderBottom:"none"}} className="surface">SURFACE</div>
+                            </div>
+                            <PlanetOverview overViewDetails={country[7].structure} img={imgNeptune2} name={country[7].name} size={"173px"} menuToPlanet={'64px'} planetToInfo={"67px"} roTime={"16.02 HOURS"} reTime={"164.79 YEARS"} radius={"24,662 KM"} avgTemp={"-201°C"} link="https://en.wikipedia.org/wiki/Saturn" />
+                        </>
+                    ): surface && neptune ? (
+                        <>
+                            <div className="subMenu">
+                                <div onClick={overviewhandle} style={{borderBottom:"none"}} className="overview">OVERVIEW</div>
+                                <div onClick={structureHandle} style={{borderBottom:"none"}}   className="structure">STRUCTURE</div>
+                                <div style={{borderBottom:"3px solid #2D68F0"}} className="surface">SURFACE</div>
+                            </div>
+                            <PlanetOverview surface={surface} overViewDetails={country[7].surface} img={imgNeptune} img2={imgNeptune3} name={country[7].name} size={"173px"} menuToPlanet={'64px'} planetToInfo={"67px"} roTime={"16.02 HOURS"} reTime={"164.79 YEARS"} radius={"24,662 KM"} avgTemp={"-201°C"} link="https://en.wikipedia.org/wiki/Saturn" />
+                        </>
+                    ) :null
         }
         </>
     )
