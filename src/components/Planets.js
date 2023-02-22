@@ -1,8 +1,7 @@
 import React, {useState} from "react"
 import Planet from "./Planet"
 import PlanetInfo from "./PlanetInfo"
-import LapPlanetPage from "./LapPlanetPage"
-export default function Planets ({mainPage, setMainpage, handleClick, isMobile, LMercuryHandle, LMercury, LVenusHandle,LVenus}) {
+export default function Planets ({mainPage, setMainpage, handleClick, isMobile, LMercuryHandle, LMercury, LVenusHandle,LVenus, LEarthHandle, LEarth, LMarsHandle, LMars, LJupiterHandle, LJupiter, LSaturnHandle, LSaturn, LUranusHandle, LUranus, LNeptuneHandle, LNeptune }) {
 
 
 const [mercury, setMercury] = useState(false)
@@ -166,28 +165,28 @@ function neptuneHandle() {
             ) : !isMobile ?(
                 <>    
                 <div className="planetborder" onClick={!LMercury?LMercuryHandle:null}>
-                    <Planet name={'MERCURY'} colors={'#DEF4FC'}/>
+                    <h1 className="planet" style={{color:LMercury?"#419EBB":"white"}}>MERCURY</h1>
                 </div>
                 <div className="planetborder" onClick={!LVenus?LVenusHandle:null}>
-                    <Planet name={'VENUS'} colors={'#F7CC7F'}/>       
+                    <h1 className="planet" style={{color:LVenus?"#F7CC7F":"white"}}>VENUS</h1>
                 </div>
-                <div className="planetborder" onClick={earthHandle}>
-                    <Planet name={'EARTH'} colors={'#545BFE'}/>       
+                <div className="planetborder" onClick={!LEarth?LEarthHandle:null}>
+                    <h1 className="planet" style={{color:LEarth?"#545BFE":"white"}}>EARTH</h1>
                 </div>
-                <div className="planetborder" onClick={marsHandle}>
-                    <Planet name={'MARS'} colors={'#FF6A45'}/>       
+                <div className="planetborder" onClick={!LMars?LMarsHandle:null}>
+                    <h1 className="planet" style={{color:LMars?"#FF6A45":"white"}}>MARS</h1>
                 </div>
-                <div className="planetborder" onClick={jupiterHandle}>
-                    <Planet name={'JUPITER'} colors={'#ECAD7A'}/>       
+                <div className="planetborder" onClick={!LJupiter?LJupiterHandle:null}>
+                    <h1 className="planet" style={{color:LJupiter?"#ECAD7A":"white"}}>JUPITER</h1>
                 </div>
-                <div className="planetborder" onClick={saturnHandle}>
-                    <Planet name={'SATURN'} colors={'#FCCB6B'}/>       
+                <div className="planetborder" onClick={!LSaturn?LSaturnHandle:null}>
+                    <h1 className="planet" style={{color:LSaturn?"#FCCB6B":"white"}}>SATURN</h1>
                 </div>
-                <div className="planetborder" onClick={uranusHandle}>
-                    <Planet name={'URANUS'} colors={'#65F0D5'}/>       
+                <div className="planetborder" onClick={!LUranus?LUranusHandle:null}>
+                    <h1 className="planet" style={{color:LUranus?"#65F0D5":"white"}}>URANUS</h1>
                 </div>
-                <div className={!isMobile ? "planetborder" : ""} onClick={neptuneHandle}>
-                    <Planet name={'NEPTUNE'} colors={'#497EFA'} />       
+                <div className={!isMobile ? "planetborder" : ""} onClick={!LNeptune?LNeptuneHandle:null}>
+                    <h1 className="planet" style={{color:LNeptune?"#497EFA":"white"}}>NEPTUNE</h1>
                 </div>
                 </>
 

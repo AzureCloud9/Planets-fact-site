@@ -66,6 +66,8 @@ body::-webkit-scrollbar-thumb {
     cursor: pointer;
   }
 
+  
+
   .planetAndInfo {
     display: flex;
   }
@@ -241,6 +243,8 @@ body::-webkit-scrollbar-thumb {
     line-height: 25px;
     letter-spacing: 1.3636363744735718px;
   }
+
+ 
   
   .subMenu {
     display: flex;
@@ -254,11 +258,7 @@ body::-webkit-scrollbar-thumb {
     line-height: 10px;
     letter-spacing: 1.9285714626312256px;
     text-align: center;
-
   }
-
-  
-
 
   .planetOverview {
     display: flex;
