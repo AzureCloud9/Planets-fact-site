@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/planets-fact-site/static/css/main.646f5b06.css",
-    "main.js": "/planets-fact-site/static/js/main.f6af95a3.js",
+    "main.js": "/planets-fact-site/static/js/main.39a8fd6a.js",
     "static/js/787.6e51ec5c.chunk.js": "/planets-fact-site/static/js/787.6e51ec5c.chunk.js",
     "static/media/geology-mercury.png": "/planets-fact-site/static/media/geology-mercury.aa6732c318454e3fc480.png",
     "static/media/geology-venus.png": "/planets-fact-site/static/media/geology-venus.484f9dacbeb3b555ffba.png",
@@ -13,7 +13,7 @@
     "static/media/geology-uranus.png": "/planets-fact-site/static/media/geology-uranus.8cec343d8e60d4b6000c.png",
     "static/media/planet-jupiter-internal.svg": "/planets-fact-site/static/media/planet-jupiter-internal.3087313dbe63fee4c2e97d2c480d6add.svg",
     "static/media/planet-earth-internal.svg": "/planets-fact-site/static/media/planet-earth-internal.3c465186cd11e28615059f051f8ab2c6.svg",
-    "static/media/background-stars.svg": "/planets-fact-site/static/media/background-stars.f6233a6a8d2351c57f2b64289718b309.svg",
+    "static/media/background-stars.svg": "/planets-fact-site/static/media/background-stars.f6233a6a8d2351c57f2b.svg",
     "static/media/planet-earth.svg": "/planets-fact-site/static/media/planet-earth.4d12af96d901006c0b9499208a32daf6.svg",
     "static/media/planet-jupiter.svg": "/planets-fact-site/static/media/planet-jupiter.b1d0956b70a8ccb39f171a258ccd98fd.svg",
     "static/media/planet-uranus-internal.svg": "/planets-fact-site/static/media/planet-uranus-internal.578233c62999b0e1bec2f707bbeb999f.svg",
@@ -31,11 +31,11 @@
     "index.html": "/planets-fact-site/index.html",
     "static/media/icon-hamburger.svg": "/planets-fact-site/static/media/icon-hamburger.05a40a49142005f6faf230286ab38214.svg",
     "main.646f5b06.css.map": "/planets-fact-site/static/css/main.646f5b06.css.map",
-    "main.f6af95a3.js.map": "/planets-fact-site/static/js/main.f6af95a3.js.map",
+    "main.39a8fd6a.js.map": "/planets-fact-site/static/js/main.39a8fd6a.js.map",
     "787.6e51ec5c.chunk.js.map": "/planets-fact-site/static/js/787.6e51ec5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.646f5b06.css",
-    "static/js/main.f6af95a3.js"
+    "static/js/main.39a8fd6a.js"
   ]
 }
